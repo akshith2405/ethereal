@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Royal Scroll</title>
+
+<style>
+
+body {
+    margin: 0;
+    background-color: #5a0f1a;
+    font-family: "Georgia", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    border: 10px solid gold;
+    padding: 40px;
+    max-width: 900px;
+    background: transparent;
+}
+
+.scroll {
+    background: #ffffff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    line-height: 1.7;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    color: #5a0f1a;
+}
+
+</style>
+</head>
+
+<body>
+
+<audio autoplay loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<div class="container">
+    <div class="scroll">
+        <h1>The Scroll</h1>
+
+        <p>
+       You'll meet someone, you know, and immediately it just works, and that person will convince you Delhi girls aren’t the worst. 
+They don’t make you second-guess you or wonder if there's better out there. 
+You don’t like them for their words, their smile, or their hair. 
+You like them just for existing, existing and strolling until our knees give in, until our lungs can take no more opposite to the godforsaken cath lab. 
+The giggle that erupts from your chest, and you know there's no better because to you, they’re what's best. 
+They text you first, a novel concept I know, and every time you see them, you say, I don't want you to go. 
+They’re kind and forgiving. They take accountability. I'm sorry for what I said. 
+They don’t make fun or pressure you into something. They make me ask what's wrong again, even after they keep saying it's nothing and kick you in the nuts. 
+They exist, in their unadulterated form, even if you haven't found it yet. 
+Their energy transcends and dictates time, and it makes you not want to leave because their heart is worth the climb. 
+They'll make you think you're ethereal, because deep down they know you deserve it all, and you'll know it too, because someday, you'll meet  ( I think I’ve) someone that loves just exactly like you.
+
+    </div>
+</div>
+
+</body>
+</html>
