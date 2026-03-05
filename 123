@@ -1,57 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
-<title>My Royal Scroll</title>
+<title>The Royal Scroll</title>
 
 <style>
 
 body {
     margin: 0;
     background-color: #5a0f1a;
-    font-family: "Georgia", serif;
+    font-family: Georgia, serif;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 
+/* gold frame */
 .container {
     border: 10px solid gold;
     padding: 40px;
     max-width: 900px;
-    background: transparent;
 }
 
+/* white scroll */
 .scroll {
-    background: #ffffff;
-    padding: 50px;
+    background: white;
+    padding: 60px;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.4);
-    line-height: 1.7;
+    box-shadow: 0 0 25px rgba(0,0,0,0.4);
+    line-height: 1.8;
     font-size: 18px;
 }
 
+/* title */
 h1 {
     text-align: center;
     color: #5a0f1a;
 }
 
+/* image styling */
+.scroll-image {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 25px auto;
+    border: 6px solid gold;
+    border-radius: 8px;
+}
+
 </style>
+
 </head>
 
 <body>
 
+<!-- background music -->
 <audio autoplay loop>
     <source src="music.mp3" type="audio/mpeg">
 </audio>
 
 <div class="container">
-    <div class="scroll">
-        <h1>The Scroll</h1>
 
-        <p>
-       You'll meet someone, you know, and immediately it just works, and that person will convince you Delhi girls aren’t the worst. 
+<div class="scroll">
+
+<h1>The Scroll</h1>
+
+<img src="photo.jpg" alt="Photo" class="scroll-image">
+
+<p>
+You'll meet someone, you know, and immediately it just works, and that person will convince you Delhi girls aren’t the worst. 
 They don’t make you second-guess you or wonder if there's better out there. 
 You don’t like them for their words, their smile, or their hair. 
 You like them just for existing, existing and strolling until our knees give in, until our lungs can take no more opposite to the godforsaken cath lab. 
@@ -62,9 +81,19 @@ They don’t make fun or pressure you into something. They make me ask what's wr
 They exist, in their unadulterated form, even if you haven't found it yet. 
 Their energy transcends and dictates time, and it makes you not want to leave because their heart is worth the climb. 
 They'll make you think you're ethereal, because deep down they know you deserve it all, and you'll know it too, because someday, you'll meet  ( I think I’ve) someone that loves just exactly like you.
+</p>
 
-    </div>
+<p>
+And that person is you.
+</p>
+
+<p>
+P.S- I'm very high as i make this
+</p>
+
+</div>
 </div>
 
 </body>
+
 </html>
