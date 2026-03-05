@@ -1,65 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 <meta charset="UTF-8">
-<title>The Royal Scroll</title>
+<title>Ethereal</title>
 
 <style>
 
 body {
-    margin: 0;
-    background-color: #5a0f1a;
-    font-family: Georgia, serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+  margin: 0;
+  background-color: #5a0f1a;
+  font-family: Georgia, "Times New Roman", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
-/* gold frame */
 .container {
-    border: 10px solid gold;
-    padding: 40px;
-    max-width: 900px;
+  border: 12px solid gold;
+  padding: 40px;
+  max-width: 900px;
 }
 
-/* white scroll */
 .scroll {
-    background: white;
-    padding: 60px;
-    border-radius: 10px;
-    box-shadow: 0 0 25px rgba(0,0,0,0.4);
-    line-height: 1.8;
-    font-size: 18px;
+  background: white;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+  line-height: 1.7;
+  font-size: 18px;
 }
 
-/* title */
 h1 {
-    text-align: center;
-    color: #5a0f1a;
+  text-align: center;
+  color: #5a0f1a;
 }
 
-/* image styling */
 .scroll-image {
-    width: 100%;
-    max-width: 500px;
-    display: block;
-    margin: 25px auto;
-    border: 6px solid gold;
-    border-radius: 8px;
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 30px auto;
+  border: 6px solid gold;
+  border-radius: 8px;
 }
 
 </style>
-
 </head>
 
 <body>
-
-<!-- background music -->
-<audio autoplay loop>
-    <source src="music.mp3" type="audio/mpeg">
-</audio>
 
 <div class="container">
 
@@ -67,7 +56,7 @@ h1 {
 
 <h1>The Scroll</h1>
 
-<img src="photo.jpeg" alt="Photo" class="scroll-image">
+<img src="photo.jpg" alt="Photo" class="scroll-image">
 
 <p>
 You'll meet someone, you know, and immediately it just works, and that person will convince you Delhi girls aren’t the worst. 
@@ -92,8 +81,19 @@ P.S- I'm very high as i make this
 </p>
 
 </div>
+
 </div>
 
-</body>
+<audio id="bg-music" loop>
+<source src="music.mp3" type="audio/mpeg">
+</audio>
 
+<script>
+document.addEventListener("click", function () {
+  var music = document.getElementById("bg-music");
+  music.play();
+}, { once: true });
+</script>
+
+</body>
 </html>
